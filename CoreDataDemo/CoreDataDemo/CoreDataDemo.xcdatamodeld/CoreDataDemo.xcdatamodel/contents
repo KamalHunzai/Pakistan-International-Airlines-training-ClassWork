@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="House" representedClassName="PRODUCT_MODULE_NAME.House" syncable="YES">
+        <attribute name="adress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rooms" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="House" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="CoreDataDemo.User" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="view" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="houses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="House" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="House" positionX="-63" positionY="9" width="128" height="90"/>
+    </elements>
+</model>
