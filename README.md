@@ -5,4 +5,7 @@ This Code is Class work Reference  for students of PIA.
 Swift 1.2
 ###iOS SDK 8.3
 
-Taught by Kamal H.Hunzai
+Taught by 
+### Kamal Hunzai
+### Muhammad Mohsin
+### Zubair Ghori
